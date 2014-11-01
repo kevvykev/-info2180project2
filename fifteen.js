@@ -14,7 +14,7 @@ window.onload = function ()
 
 	for (var i=0; i<div.length; i++)
 	{
-	    div[i].style.backgroundImage="url('pic1.jpg')";
+	    div[i].style.backgroundImage="url('background.jpg')";
 		div[i].className = 'puzzlepiece';
 		div[i].style.left = (i%4*100)+'px';
 		div[i].style.top = (parseInt(i/4)*100) + 'px';
